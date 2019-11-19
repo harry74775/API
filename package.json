@@ -17,6 +17,9 @@
     "url": "https://github.com/harry74775/API/issues"
   },
   "homepage": "https://github.com/harry74775/API#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }
