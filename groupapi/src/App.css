@@ -20,3 +20,28 @@
 .App-link {
   color: #09d3ac;
 }
+.navigationBar {
+
+  position: fixed;
+  top:0;
+  z-index: 1;
+  max-height: 40px;
+  min-width: 100%;
+  background-color:white;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  padding: 6px;
+  padding-bottom: 0px;
+
+}
+.navigationBar a{
+  position: relative;
+  top:5px;
+  text-decoration: none;
+  color: black;
+}
+.navBarItems {
+  min-height: 26px;
+  max-height: 26px;
+}
