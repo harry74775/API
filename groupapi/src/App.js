@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import './App.css';
-
+import football from './lib/GetFootball';
 function App() {
   return (
 
@@ -28,11 +28,14 @@ function App() {
             {/* API ONE SHIT */}
           </div>
           }/>
-          <Route exact path='/Two' render={() =>
+          <Route exact path='/Football' render={() =>
           <div>
             <Navigation />
-            2
-            {/* API TWO SHIT */}
+            <div className="body">
+              2
+              <button onClick="football.getFootball()">Load football</button>
+              {/* API TWO SHIT */}
+            </div>
           </div>
           }/>
           <Route exact path='/Three' render={() =>
@@ -60,6 +63,7 @@ function App() {
       </div>
     </BrowserRouter>
   );
+
 }
 
 export default App;
