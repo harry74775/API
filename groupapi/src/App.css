@@ -25,6 +25,7 @@
   position: fixed;
   top:0;
   z-index: 1;
+  min-height: 40px;
   max-height: 40px;
   min-width: 100%;
   background-color:white;
@@ -44,4 +45,9 @@
 .navBarItems {
   min-height: 26px;
   max-height: 26px;
+  min-width: 40px;
+  max-width: 40px;
+}
+.body {
+  padding-top:40px;
 }
